@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">AGJ TECHNOLOGY</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#tech-stack">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact-me">contact</a></li>
+                <!--
+                <li><button id="theme-toggle" onclick="themeToggle()">Toggle theme</button></li>-->
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">AGJ TECHNOLOGY</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+             </div>
+             <div class="menu-links">
+                <li><a href="#" onclick="toggleMenu()">Home</a></li>
+                <hr>
+                <li><a href="#about-me" onclick="toggleMenu()">About</a></li>
+                <hr>
+                <li><a href="#tech-stack" onclick="toggleMenu()">Skills</a></li>
+                <hr>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <hr>
+                <li><a href="#contact-me" onclick="toggleMenu()">contact</a></li>
+                <hr>
+            </div>
+        </div>
+
+    </nav>
+
+
+<section id="home">
+
+<style>
+  .lecturer-container {
+    margin: 2em;
+    display: flex;
+  }
+
+    .lectuer-container-text {
+    margin: 1em;
+    padding: 2em;
+  }
+
+  .lecturer-container button {
+    padding: 10px;
+    gap: 10px;
+  }
+  @media  screen and (max-width: 1200px) {
+
+   
+    .lecturer-container {
+      margin: 2em;
+      display: grid;
+    }
+
+    
+
+    .lectuer-container-text {
+    margin: 20px;
+    padding: 10px;
+  }
+
+
+  .portfolio-img {
+    width: 100px;
+   }
+   
+  }
+
+
+  
+
+  .text_1 {
+    margin: 0.5em;   
+    font-weight: 100;  
+    color: #b4b5b6;      
+  }
+
+  
+  
+
+  .footer-letter{
+    text-align: center;
+  }
+
+  .portfolio-img {
+    width: 350px;
+    height: 400px;
+    border-radius: 100px;
+    align-self: center;
+}
+
+button {
+  align-items: center;
+  margin-top: 20PX;
+  background-color:  rgb(140, 184, 144);
+  color: black;
+  padding: 10px;
+  border-radius: 100px ;
+  border-color: rgb(10, 139, 28);
+  font-size: 15px;
+}
+
+.social-icon{
+  display: flex;
+}
+
+.text_2 {
+  font-weight: 500;
+  color: #F9FAFB;
+}
+.ctm-btn {
+  text-decoration: none;
+  color: black;
+
+}
+
+.ctm-btn:hover {
+    color: #06D6A0;
+    text-decoration: none;
+    background: #5e6368;
+ }
+
+ .title {
+   font-size: 3rem;
+   text-align: center;
+   color: #F9FAFB;
+}
+
+.section__text__p1 {
+   text-align: center;
+   color: #F9FAFB;
+}
+</style>
+
+
+
+
+<div class="lecturer-container">
+<div>
+  <img src="assets/mypics.JPG" alt="Qoreeb image" class="lecturer-container-img portfolio-img">
+</div>
+<div class="lectuer-container-text">
+ <h2 class="text_2">
+  Hello! I'm, Agbaje Qoreeb 
+</h2>
+<br>
+
+<h2 class="text_2">
+  A Frontend Web Developer
+</h2>
+<br>
+ 
+<h4 class="text_1">
+  A frontend developer,Website Developer with a strong background in helping businesses and individuals build responsive,Visually appealing, and user-friendly online presences, I focus on creating responsive websites and user friendly designs. I love Collaborating on projects and finding solutions to challanges.
+  I'm a Data Entry Specialist and a mobile device Technician(phones,laptops,pads and other mobile devives) with more than 4yrs Experience.
+</h4>
+
+
+<button onclick="window.open('./assets/nd1seondpq')">
+  Download Resume
+</button>
+  <a href="https://wa.me/+2349040127973" target="_blank"  ><button class="ctm-btn">Contact me</button> </a>
+<!--
+<div class="social-box">
+ 
+  
+   <img src="assets/icons8-facebook-50.png" width="40px" height="40px" class="social-link">
+<img src="assets/icons8-linkedin-50.png" width="40px" height="40px"  class="social-link">
+<img src="assets/github.png" width="40px" height="40px" class="social-link">
+<img src="assets/icons8-twitter-50.png" width="40px" height="40px" class="social-link" >
+<img src="assets/icons8-instagram-50.png" width="40px" height="40px" class="social-link">
+<img src="assets/icons8-tiktok-50.png" width="40px" height="40px" class="social-link">
+<br>
+</div>
+-->
+</div>
+
+</div> 
+  <hr>
+
+
+</section>
+
+<section id="about-me">
+
+
+  <div class="about-container">
+
+ <p class="section__text__p1">Get To Know More</p>
+     <h1 class="title">About Me</h1>
+
+<br>
+  <p class="text_1">
+    
+ I'm a passionate and detailed oriented Frontend Developer with a growing skillset in Creating responsive, accessible and user friendly websites. I specialize in turninng ideas into functional and visually appealing web technologies like HTML, CSS, Javascript, and frameworks.
+ 
+ My journey into web development started with curiosity and has grown into a focused mission: to build websites that not only look great but work seamlessly across devices.I believe in Writing clean code, continous learning, and building solutions that solve real-world problems.
+ 
+ Whether I'm working on a simple landing page or a dynamic application, I pay attention to the little things layout, performance, user experince because i know they make the biggest difference.
+ 
+ I'm still in my journey, but I'm committed to growing, collaborating, and creating meaningful digital Experience.  
+  </p>
+
+</div>
+
+<!--
+ <div class="tool-stack">
+  <div class="skills-container">
+    <div class="skill-box">
+      <h1 style="color: #F9FAFB;">15+</h1>
+      <p>project completed</p>
+    </div>
+  </div>
+
+  <div class="skills-container">
+    <div class="skill-box">
+      <h1 style="color: #F9FAFB;">1+</h1>
+      <h2 style="color: #F9FAFB;">Experience</h2>
+    </div>
+  </div>
+
+  <div class="skills-container">
+    <div class="skill-box">
+      <h1></h1>
+      <p>React</p>
+    </div>
+  </div>
+-->
+</section>
+
+<hr>
+
+
+<section id="tech-stack">
+   <div class="tech-text">
+    <h4 class="about-head">📝SKILLS</h4>
+   </div>
+
+   <div class="scroll-wrapper">
+  <div class="tool-stack">
+  <div class="skills-container">
+    <div class="skill-box">
+      <img src="assets/react-BzCHfcRJ.png" alt="react">
+      <p>React</p>
+    </div>
+  </div>
+
+   <div class="skills-container">
+    <div class="skill-box">
+      <img src="assets/css.png" alt="react">
+      <p>Javascript</p>
+    </div>
+  </div>
+
+  <div class="skills-container">
+    <div class="skill-box">
+      <img src="assets/csss.png" alt="react">
+      <p>CSS</p>
+    </div>
+  </div>
+
+  <div class="skills-container">
+    <div class="skill-box">
+      <img src="assets/html.png" alt="react">
+      <p>HTML</p>
+    </div>
+  </div>
+
+  </div>
+
+
+   <div class="tool-stack">
+  <div class="skills-container">
+    <div class="skill-box">
+      <img src="assets/github.png" alt="react">
+      <p>Github</p>
+    </div>
+  </div>
+
+  <div class="skills-container">
+    <div class="skill-box">
+      <img src="assets/git.png" alt="react">
+      <p>Git</p>
+    </div>
+  </div>
+
+   <div class="skills-container">
+    <div class="skill-box">
+      <img src="assets/bootstrap-D4feuazP.png" alt="react">
+      <p>Bootstrap</p>
+    </div>
+  </div>
+
+  <div class="skills-container">
+    <div class="skill-box">
+      <img src="assets/html.png" alt="react">
+      <p>React</p>
+    </div>
+  </div>
+
+   </div>
+
+</div>
+   
+  
+ 
+</section>
+<hr>
+
+<!--PROJECTS -->
+ <section id="projects">
+   <div>
+     <h4 class="about-head">🚀PROJECTS HAVE WORKED ON</h4>
+   </div>
+
+   <!--CODE FROM UTU -->
+   <div class="container">
+    <div class="wrapper">
+      <div class="card-list">
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/cteproject.png" alt="projects">
+            <p class="card-tag">
+              SCHOOL WEBSITE
+            </p>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">NACOMES FPI CHAPTER</h3>
+            <p class="card-text">
+              The primary purpose of the department website is to provide a centralized platform for students, and staff to access important information, resources, and tools. The website can serve as a hub for: Depatmental news and updates, Lecturers Education Biography, Student resources. </p>
+              <hr>
+              <div class="card-footer">
+                <div class="card-profile">
+                  <img src="assets/github.png">
+                  <div class="card-profile-info">
+                   <a> <span>view code</span></a>
+                   
+                  </div>
+                </div>
+                
+                <div class="card-profile">
+                  <img src="assets/github.png">
+                  <div class="card-profile-info">
+                    <a><span>Visit Project</span></a>
+                  </div>
+                </div>
+              </div>         
+          </div>
+        </div>
+       
+
+
+        
+
+          <div class="card">
+          <div class="card-image">
+            <img src="assets/birthdayproject.png" alt="projects">
+            <p class="card-tag">
+              BIRTHDAY TIME CAPSULE
+            </p>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title"> My Birthday Time Capsule</h3>
+            <p class="card-text">
+              . </p>
+              <hr>
+              <div class="card-footer">
+                <div class="card-profile">
+                  <img src="assets/github.png">
+                  <div class="card-profile-info">
+                   <a> <span>view code</span></a>
+                   
+                  </div>
+                </div>
+                
+                <div class="card-profile">
+                  <img src="assets/github.png">
+                  <div class="card-profile-info">
+                    <a><span>Visit Project</span></a>
+                  </div>
+                </div>
+              </div>         
+          </div>
+        </div>
+       
+
+
+         <div class="card">
+          <div class="card-image">
+            <img src="assets/TYVY3075.JPG" alt="projects">
+            <p class="card-tag">
+              DEVELOPMENT
+            </p>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Best Frontend Framework</h3>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quo, expedita dolorem ad fugit eum, magnam dolore maiores numquam qui rem, assumenda dolor est repellendus impedit delectus voluptates distinctio ipsam. </p>
+              <hr>
+              <div class="card-footer">
+                <div class="card-profile">
+                  <img src="assets/github.png">
+                  <div class="card-profile-info">
+                   <a> <span>view code</span></a>
+                   
+                  </div>
+                </div>
+                
+                <div class="card-profile">
+                  <img src="assets/github.png">
+                  <div class="card-profile-info">
+                    <a><span>Visit Project</span></a>
+                  </div>
+                </div>
+              </div>         
+          </div>
+        </div>
+       
+
+
+        
+      </div>
+    </div>
+   </div>
+
+
+
+
+   <!--second project-->
+
+<div class="container">
+    <div class="wrapper">
+      <div class="card-list">
+         <div class="card">
+          <div class="card-image">
+            <img src="assets/project3-desktop-B7IjTFKb.png" alt="projects">
+            <p class="card-tag">
+              DEVELOPMENT
+            </p>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Best Frontend Framework</h3>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quo, expedita dolorem ad fugit eum, magnam dolore maiores numquam qui rem, assumenda dolor est repellendus impedit delectus voluptates distinctio ipsam. </p>
+              <hr>
+              <div class="card-footer">
+                <div class="card-profile">
+                  <img src="assets/github.png">
+                  <div class="card-profile-info">
+                   <a> <span>view code</span></a>
+                   
+                  </div>
+                </div>
+                
+                <div class="card-profile">
+                  <img src="assets/github.png">
+                  <div class="card-profile-info">
+                    <a><span>Visit Project</span></a>
+                  </div>
+                </div>
+              </div>         
+          </div>
+        </div>
+       
+
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/project3-desktop-B7IjTFKb.png" alt="projects">
+            <p class="card-tag">
+              DEVELOPMENT
+            </p>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Best Frontend Framework</h3>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quo, expedita dolorem ad fugit eum, magnam dolore maiores numquam qui rem, assumenda dolor est repellendus impedit delectus voluptates distinctio ipsam. </p>
+              <hr>
+              <div class="card-footer">
+                <div class="card-profile">
+                  <img src="assets/github.png">
+                  <div class="card-profile-info">
+                   <a> <span>view code</span></a>
+                   
+                  </div>
+                </div>
+                
+                <div class="card-profile">
+                  <img src="assets/github.png">
+                  <div class="card-profile-info">
+                    <a><span>Visit project</span></a>
+                  </div>
+                </div>
+              </div>         
+          </div>
+        </div>
+       
+         <div class="card">
+          <div class="card-image">
+            <img src="assets/project3-desktop-B7IjTFKb.png" alt="projects">
+            <p class="card-tag">
+              DEVELOPMENT
+            </p>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Best Frontend Framework</h3>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quo, expedita dolorem ad fugit eum, magnam dolore maiores numquam qui rem, assumenda dolor est repellendus impedit delectus voluptates distinctio ipsam. </p>
+              <hr>
+              <div class="card-footer">
+                <div class="card-profile">
+                  <img src="assets/github.png">
+                  <div class="card-profile-info">
+                   <a> <span>view code</span></a>
+                   
+                  </div>
+                </div>
+                
+                <div class="card-profile">
+                  <img src="assets/github.png">
+                  <div class="card-profile-info">
+                    <a><span>Visit Project</span></a>
+                  </div>
+                </div>
+              </div>         
+          </div>
+        </div>
+       
+        
+      </div>
+    </div>
+   </div>
+
+
+ </section>
+<hr>
+
+
+ <section id="contact-me">
+    <div class="tech-text">
+    <h4 class="about-head">🚀Want To Build a Project?</h4>
+   </div>
+
+
+   <div class="tech-text">
+    <h4 class="about-head">Reach Out to me</h4>
+   </div>
+
+   <!--contact section -->
+   <div class="value-input">
+
+    <form id="messageForm" action="https://formsubmit.co/a97f07ec854b81b117aeff0f3b007157" method="POST">
+    <div class="input-name">
+      <p>Name</p>
+  <input type="text" placeholder="Enter your name" required >
+  </div>
+
+   <div class="input-name">
+      <p>Email</p>
+  <input placeholder="Enter your email" type="email" required>
+</div>
+
+ <div class="input-name">
+      <p>Message</p>
+   <textarea  placeholder="Your message ..." required></textarea>
+  </div>
+  <div class="input-name">
+  <button class="msg-btn" type="submit">Send message</button>
+  </div>
+    </form>
+
+
+   </div>
+   </section>
+
+   <footer>
+   <div class="footer-logo">
+    <div class="logo">AGJ TECHNOLOGY</div>
+    <p style="color: azure;">Networking Towards Advance Technology.......</p>
+   </div>
+
+   <div class="social-box">
+ 
+   <div style="color: azure;">Connect with me</div>
+  <div class="social-box-icon">
+   <img src="assets/icons8-facebook-50.png" width="40px" height="40px" class="social-link">
+   <img src="assets/github.png" width="40px" height="40px" class="social-link" >
+<img src="assets/icons8-instagram-50.png" width="40px" height="40px" class="social-link" >
+<img src="assets/icons8-linkedin-50.png" width="40px" height="40px"  class="social-link">
+<img src="assets/icons8-tiktok-50.png" width="40px" height="40px" class="social-link" >
+<img src="assets/icons8-twitter-50.png" width="40px" height="40px" class="social-link" >
+<img src="assets/icons8-whatsapp-50.png" width="40px" height="40px" class="social-link" >
+
+<br>
+</div>
+</div>
+
+
+<div class="call-me">
+  <div style="color: azure;" >Let's Talk</div>
+  <p>Schedule a call with me to discuss your Project</p>
+  <button>Call Me</button>
+</div>
+   </footer>
+   
+    <script src="script.js"></script>
+<script type="text/javascript" src="https://form.jotform.com/jsform/252536835644060">
+  
+</script>
+    
+    </body>
+    </html>

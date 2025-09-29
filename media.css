@@ -1,0 +1,181 @@
+@media  screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+
+
+
+   
+
+    .tech-stack {
+   margin: 1em;
+   display: flex;
+}
+.tech-icon {
+   width: 40px;
+   height: 70px;
+   margin: 10px;
+}
+
+ 
+
+ .about-container {
+    margin: 1em;
+}
+
+
+
+
+/*skills scroll*/
+
+.scroll-wrapper {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+/* The long scrolling container */
+.tool-stack {
+  display: flex;
+  width: fit-content;
+  animation: scroll 30s linear infinite;
+}
+
+/* Individual skill blocks */
+.skills-container {
+  flex: 0 0 auto;
+  padding: 10px;
+}
+
+.skill-box {
+  text-align: center;
+  box-shadow: 0 2px 8px rgb(216, 228, 217);
+  padding: 10px;
+  width: 160px;
+  border-radius: 8px;
+  background-color: #1F2937;
+  transition: box-shadow 0.3s ease;
+}
+
+.skill-box:hover {
+  box-shadow: 0 2px 8px rgb(10, 139, 28);
+}
+
+.skill-box img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+
+.skill-box p {
+  font-size: 14px;
+  margin: 0;
+  color: #F9FAFB;
+}
+
+/* The keyframes that scroll left infinitely */
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* RESPONSIVE STYLES */
+@media (max-width: 768px) {
+  .skill-box {
+    width: 140px;
+  }
+
+  .skill-box img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-box {
+    width: 120px;
+    padding: 8px;
+  }
+
+  .skill-box img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .skill-box p {
+    font-size: 12px;
+  }
+}
+
+
+.card-list {
+   display: flex;
+   flex-direction: column;
+   margin-top: 10px;
+}
+
+footer {
+   display: flex;
+   flex-direction: column;
+   margin: 50px;
+   margin-right: 40px;
+   padding: 25px;
+ }
+
+
+ /* Footer media */
+  footer {
+     display: grid;
+   margin: 0px;
+   padding: px;
+ 
+  }
+
+  
+.social-box {
+   margin: 30px;
+   margin-left: 10px;
+}
+
+.social-box-icon {
+   padding: 10px;
+}
+
+.call-me {
+    margin: px;
+   margin-left: 10px;
+}
+
+.call-me p {
+   margin: 5px;
+   padding: 5px;
+   color: rgb(113, 226, 226);;
+}
+
+}
+
+
+
+
+
+
+ 
+/*
+
+
+
+
+
+.about-container {
+    margin: 1em;
+    width: 300px;
+  }
+ 
